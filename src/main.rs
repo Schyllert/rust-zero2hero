@@ -11,6 +11,7 @@ use modules::{swedish_greetings, english_greetings};
 fn main() {
     println!("Hello, world!");
     swedish_greetings::swedish_greetings::greeting();
+    english_greetings::english_greetings::greeting();
 }
 
 
