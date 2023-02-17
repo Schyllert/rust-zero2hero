@@ -1,0 +1,6 @@
+.vscode
+.noobs
+
+# Added by cargo
+
+/target
