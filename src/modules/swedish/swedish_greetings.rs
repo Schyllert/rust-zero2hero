@@ -1,4 +1,3 @@
 pub fn greeting() {
-    println!("Hej");
+  println!("Hej");
 }
-

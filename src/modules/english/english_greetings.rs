@@ -1,5 +1,4 @@
 pub fn greeting() {
-    println!("Hello");
-    let d : i32 = 33;
-
+  println!("Hello");
+  let d: i32 = 33;
 }
