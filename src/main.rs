@@ -5,16 +5,31 @@
 )]
 
 mod modules;
-use modules::{swedish_greetings, english_greetings};
+use modules::{swedish, english, tests};
 
 
 fn main() {
     println!("Hello, world!");
-    swedish_greetings::swedish_greetings::greeting();
-    english_greetings::english_greetings::greeting();
+    swedish::swedish_greetings::greeting();
+    english::english_greetings::greeting();
+
+    statements();
 }
 
+pub fn statements() {
 
+    // Let statements
+
+    // A let statement introduces a new set of variables, given by a pattern. 
+
+    let x : i32 = 5;
+
+    // When no type annotation is given, the compiler will infer the type, or signal an error if insufficient type information is available for definite inference. 
+    let y = 5.0;
+
+
+
+}
 
 // Rust has no classes xd
 // Modules...

@@ -1,3 +1,4 @@
-pub mod swedish_greetings;
-pub mod english_greetings;
+pub mod english;
+pub mod swedish;
+pub mod tests;
 
