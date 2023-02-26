@@ -6,7 +6,7 @@
 )]
 
 mod modules;
-use modules::{english, swedish, tests, load_resource};
+use modules::{english, load_resource, swedish, tests};
 
 // We have to add this in the cargo.toml
 // rand = "0.8"
@@ -31,8 +31,6 @@ pub fn statements() {
   if 1 == 2 + 4 {
   } else {
   }
-
-
 
   // Switch statement
   let mut x: i32 = give_number();

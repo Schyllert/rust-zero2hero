@@ -1,9 +1,8 @@
 /*crate can also be used as in conjunction with pub to signify that the item
 it’s attached to is public only to other members of the same crate it’s in. */
 use crate::give_number;
-use crate::swedish;
 use crate::load_resource;
-
+use crate::swedish;
 
 #[test]
 #[should_panic] // If the test should fail
@@ -28,5 +27,3 @@ fn swedish_greetings_test() {
 fn can_we_access_main_functions() {
   give_number();
 }
-
-
