@@ -6,18 +6,20 @@
 )]
 
 mod modules;
-use modules::{english, load_resource, swedish, tests};
+use modules::{english, load_resource, strings, swedish, tests};
 
 // We have to add this in the cargo.toml
 // rand = "0.8"
 use rand::Rng;
 
 fn main() {
-  println!("Hello, world!");
-  swedish::swedish_greetings::greeting();
-  english::english_greetings::greeting();
+  strings::string_examples::concatinating_strings();
 
-  statements();
+  //println!("Hello, world!");
+  //swedish::swedish_greetings::greeting();
+  //english::english_greetings::greeting();
+
+  //statements();
 }
 
 pub fn statements() {
