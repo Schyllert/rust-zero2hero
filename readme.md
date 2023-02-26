@@ -20,7 +20,8 @@
     4) keyword crate
     5) writing tests
     6) immutable vs mutable variable - keyword 'mut'
-    7) basic statements: for, if, iterator loop, infinite loop keyword 'loop', 
+    7) basic statements: for, if, iterator loop, infinite loop keyword 'loop'
+    8) string vs str, string slices and concept of ownsership 
 
 
 ## Questions to myself
