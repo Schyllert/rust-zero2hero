@@ -26,3 +26,7 @@
 ## Questions to myself
 
     1) vec![1, 2, 3]; vs vec?[1, 2, 3];
+    2) Should tests be pub or priv?
+    3) bool vs Bool
+    4) type str vs String
+    5) user configuration as a file vs a build flag?
